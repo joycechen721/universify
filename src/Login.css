@@ -1,0 +1,63 @@
+.login{
+    background: black;
+}
+
+.white_login{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 10%;
+    bottom: 5%;
+    max-width: 500px;
+    margin: auto;
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.white_login > h1{
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 40px;
+    font-family: Laila;
+    font-weight:400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.white_login > form > h5{
+    margin: auto;
+    margin-left: 10%;
+    font-family: Laila;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 40px;
+    color: #000000;
+}
+
+.white_login > form > input {
+    height: 30px;
+    margin-left: 10%;
+    margin-bottom: 2em;
+    background-color: #FAF0E8;
+    border-color:transparent;
+    border-radius:5px;
+    width: 80%;
+    height: 50px;
+    font-size: large;
+}
+
+.white_login > p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.signin_button{
+    margin-left: 10%;
+    width: 80%;
+    color: white;
+    background: #D5B39B;
+    border-radius: 8px;
+}

@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #FFFAF5;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Laila:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.76);;
+}
+
+button{
+  cursor: pointer;
+  font-family: Laila;
+  font-size: 1.7em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.76);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+h2 {
+  font-family: Crimson Text;
+}
+
+.container {
+  position: absolute;
+  left: 50px;
+  right: 60px;
+  top: 141px;
+  bottom: 137px;
+}
